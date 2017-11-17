@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+}
+#rectangle{
+    width:720px;
+    height:1280px;
+    background:#f0d2b8;
+    margin-left:30%;
+    margin-top: 10%;
+}
