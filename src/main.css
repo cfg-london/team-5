@@ -1,0 +1,27 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  background: #e6e9e9;
+}
+
+body {
+	line-height: 1;
+  height: 1280px;
+  width: 720px;
+  background: white;
+  border-collapse: collapse
+}
+
+h1, h2 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
