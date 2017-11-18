@@ -1,17 +1,9 @@
 body {
 	background-color: black;
-<<<<<<< HEAD
-	font-family: "Helvetica";
-	font-size: 32px;
-}
-
-=======
 	font-family: "Calibri";
 	font-size: 32px;
 }
 
-
->>>>>>> 0dbe444dc56c77d0fa1fac5f5e74f7a30ff0bdcb
 #rectangle {
     width: 720px;
     height: 1280px;
@@ -25,7 +17,6 @@ body {
 	width: 680px;
 	height: 300px;
 	color: black;
-<<<<<<< HEAD
     font-size: 52px;
     -webkit-transition-duration: 0.8s; /* Safari */
     transition-duration: 0.8s;
@@ -42,23 +33,13 @@ body {
 }
 
 #btn1 {
-=======
     font-size: 56px;
->>>>>>> 0dbe444dc56c77d0fa1fac5f5e74f7a30ff0bdcb
 	margin: 280px 20px 60px 20px;
 }
 
 #btn2 {
-<<<<<<< HEAD
-	margin: 60px 20px 280px 20px;	
-=======
-	background-color: #FC9157;
-	width: 680px;
-	height: 300px;
-	color: black;
     font-size: 56px;
 	margin: 60px 20px 280px 20px;
->>>>>>> 0dbe444dc56c77d0fa1fac5f5e74f7a30ff0bdcb
 }
 
 .textbox {
