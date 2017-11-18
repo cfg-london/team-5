@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/home.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="rectangle">
+      <div>
+        <div class="form-group">
+          <label for="test">Enter Text:</label>
+          <input type="text" class="form-control" id="test" placeholder="Enter text" name="test">
+        </div>
+        <button id="buttonform" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+    <script>
+      $( document).ready(function(){
+        $("#buttonform").click(function(){
+            $.ajax({
+                  type: "POST",
+                  url: "./form",
+                  data: {"test":$("#test").val(), 'surname':'bob'},
+              });
+        });
+      });
+    </script>
+  </body>
+</html>
