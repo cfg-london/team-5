@@ -11,6 +11,7 @@ body {
     background: #f0d2b8;
     margin-left: 5%;
     margin-top: 5%;
+    position:relative;
 }
 
 #btn1 {
@@ -37,4 +38,10 @@ body {
 
 h1 {
   text-align: center;
+}
+
+#info {
+	position:absolute;
+	right:10;
+	top:10;
 }

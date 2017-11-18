@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	font-family: "Calibri";
+	font-size: 31px;
+}
+
+#rectangle {
+    width: 720px;
+    height: 1280px;
+    background: #f0d2b8;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: relative;
+		padding: 20px 10px;
+}
+
+#text {
+	margin: 15px 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 64px;
+}
+
+#btn{
+	background-color: #FC9157;
+	color: black;
+	width: 720px;
+	height: 160px;
+  	font-size: 70px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.logo {
+	margin: 30px 110px;
+}
+
+#home {
+	background-image: none;
+	margin: 0 0 0 20px;
+	float:left;
+}
