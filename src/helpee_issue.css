@@ -11,6 +11,7 @@ body {
     background: #f0d2b8;
     margin-left: 5%;
     margin-top: 5%;
+    padding: 300px 50px;
 }
 
 #btn1 {
@@ -31,8 +32,8 @@ body {
 	margin: 60px 20px 280px 20px;
 }
 
-.textbox {
-	padding-top = 15px;
+.textarea {
+	margin-top: 10px;
 }
 
 h1 {

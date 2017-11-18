@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="helpee_issue.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div id="rectangle">
+  <h1> Issue information </h1>
+<form action="referrer_issue.html">
+  <script type="text/javascript">
+function showfield(name){
+	if(name=='Other')document.getElementById('div1').innerHTML = 'Other: <input type="text" name="other" />';
+	else
+		document.getElementById('div1').innerHTML='';
+}
+</script>
+<select name="select_opt" id="select_opt" class="form-control" onchange="showfield(this.options[this.selectedIndex].value)" required>
+	 <option value="" disabled selected>Choose your option</option>
+    <option value="1">Social Isolation & Loneliness</option>
+    <option value="2">Health and being safe at home</option>
+    <option value="3">Legal and Benefits Advice</option>
+    <option value="1">Crisis</option>
+    <option value="2">Getting out and about</option>
+    <option value="3">Later Life Planning</option>
+    <option value="1">Help @home</option>
+    <option value="2">Your House and Staying well at Home</option>
+    <option value="3">Your House and Staying in your Home</option>
+    <option value="1">Practical Support</option>
+    <option value="2">Monet and Benefits(& Debt)</option>
+    <option value="Other">Other Sources, Please Specify</option>
+</select>
+<div id="div1"></div>
+<br></br>
+<textarea rows="8" cols="36">
+</textarea>
+<br></br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+</body>
+</html>
