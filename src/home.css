@@ -1,12 +1,8 @@
 body {
 	background-color: black;
-	font-family: "Lato";
+	font-family: "Helvetica";
 	font-size: 32px;
 }
-
-/** {
-	margin: 10px;
-}*/
 
 #rectangle {
     width: 720px;
@@ -14,26 +10,33 @@ body {
     background: #f0d2b8;
     margin-left: 5%;
     margin-top: 5%;
-
 }
 
-#btn1 {
+.btn {
 	background-color: #FC9157;
 	width: 680px;
 	height: 300px;
-	/*margin: 10px 0;*/
 	color: black;
-    font-size: 32px;
+    font-size: 52px;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+}
+
+.btn:hover {
+    background-color: orange;
+    /*color: white;*/
+}
+
+.btn:click {
+    background-color: orange;
+    /*color: white;*/
+}
+
+#btn1 {
 	margin: 280px 20px 60px 20px;
 }
 
 #btn2 {
-	background-color: #FC9157;
-	width: 680px;
-	height: 300px;
-	/*margin: 10px 0;*/
-	color: black;
-    font-size: 32px;
 	margin: 60px 20px 280px 20px;	
 }
 
